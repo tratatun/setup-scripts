@@ -1,3 +1,6 @@
+# ctrl+h is the usual shortcut to show hidden files
+# gnome-terminal
+
 # all needed by pacman
 sudo pacman -Syu
 sudo pacman -S yay base-devel git tmux bluez bluez-utils blueman pulseaudio pulseaudio-bluetooth pavucontrol nvm
