@@ -3,7 +3,7 @@
 
 # all needed by pacman
 sudo pacman -Syu
-sudo pacman -S yay base-devel git tmux bluez bluez-utils blueman pulseaudio pulseaudio-bluetooth pavucontrol nvm
+sudo pacman -S yay base-devel git tmux bluez bluez-utils blueman pulseaudio pulseaudio-bluetooth pavucontrol
 
 # vscode
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
@@ -14,7 +14,7 @@ makepkg -si
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 # Google Chrome
-pamac build google-chrome
+pamac install google-chrome
 
 # Telegram desctop
 pamac install telegram-desktop
@@ -23,6 +23,9 @@ pamac install telegram-desktop
 yay -S slack-desktop
 
 ### tmux ###
+# ~/.tmux.conf
+#
+
 # Toggle mouse on
 bind-key M \
   set-option -g mouse on \;\
@@ -33,4 +36,5 @@ bind-key m \
   set-option -g mouse off \;\
   display-message 'Mouse: OFF'
 
+#
 ### tmux end ###
