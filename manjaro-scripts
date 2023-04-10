@@ -3,7 +3,7 @@
 
 # all needed by pacman
 sudo pacman -Syu
-sudo pacman -S yay base-devel git tmux bluez bluez-utils blueman pulseaudio pulseaudio-bluetooth pavucontrol neofetch
+sudo pacman -S yay base-devel git tmux bluez bluez-utils blueman pulseaudio pulseaudio-bluetooth pavucontrol neofetch ventoy
 
 # vscode
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
