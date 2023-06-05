@@ -21,6 +21,7 @@ pamac install telegram-desktop
 
 # Slack desktop
 yay -S slack-desktop
+yay -S vlc
 
 ### arch repositories to install ###
 #
