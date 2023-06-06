@@ -34,6 +34,7 @@ git clone https://aur.archlinux.org/zoom.git
 # ~/.tmux.conf
 #
 
+set-option -g mouse on \;\
 # Toggle mouse on
 bind-key m \
   set-option -g mouse on \;\
